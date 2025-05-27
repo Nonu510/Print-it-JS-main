@@ -14,7 +14,7 @@ const slides = [
 	{
 		"image":"slide4.png",
 		"tagLine":"Autocollants <span>avec découpe laser sur mesure</span>"
-	}
+	},	
 ]
 
 
@@ -47,7 +47,7 @@ left.addEventListener('click' , () => {
 	if(i > 0)
 		i--;
 	else
-		i = 3;
+		i = slides.length - 1;
 	baniere();
 } )
 
